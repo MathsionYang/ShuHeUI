@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShuHeUITestClass</class>
+ <widget class="QWidget" name="ShuHeUITestClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ShuHeUITest</string>
+  </property>
+  <widget class="QSwitchButton" name="switchbutton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>100</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="bgColorOn">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>127</blue>
+    </color>
+   </property>
+   <property name="textColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textOff">
+    <string>未开启</string>
+   </property>
+   <property name="textOn">
+    <string>已开启</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QSwitchButton</class>
+   <extends>QWidget</extends>
+   <header>switchbutton/QSwitchButton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="ShuHeUITest.qrc"/>
+ </resources>
+ <connections/>
+</ui>

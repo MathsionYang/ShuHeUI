@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/ShuHeMultiCtrlUI/x64
+/ShuHeUITest/x64
+/ShuHeUITest/.vs

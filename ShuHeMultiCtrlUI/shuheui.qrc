@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/sh">
+        <file>icon/switchButton.png</file>
+    </qresource>
+</RCC>
