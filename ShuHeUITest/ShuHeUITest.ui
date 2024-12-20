@@ -43,6 +43,43 @@
     <string>已开启</string>
    </property>
   </widget>
+  <widget class="QSwitchButton" name="switchbutton_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>100</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="bgColorOn">
+    <color>
+     <red>0</red>
+     <green>170</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="sliderColorOff">
+    <color>
+     <red>150</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="textColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textOff">
+    <string>未开启</string>
+   </property>
+   <property name="textOn">
+    <string>已开启</string>
+   </property>
+  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>

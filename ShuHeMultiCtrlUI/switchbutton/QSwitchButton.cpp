@@ -41,7 +41,6 @@ QSwitchButton::~QSwitchButton() {}
 
 void QSwitchButton::mousePressEvent(QMouseEvent *) {
   checked = !checked;
-  emit checkedChanged(checked);
 
   //每次移动的步长为宽度的 50分之一
   step = width() / 50;
@@ -58,7 +57,7 @@ void QSwitchButton::mousePressEvent(QMouseEvent *) {
   } else {
     endX = 0;
   }
-
+  emit checkedChanged(checked);
   timer->start();
 }
 
